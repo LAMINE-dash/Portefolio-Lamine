@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Lamine<span>Diop</span></div>
+            <div class="menu-toggle">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section Améliorée -->
+    <section id="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">🚀 Développeur Front-End Disponible</span>
+                    <div class="badge-pulse"></div>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Bonjour, je suis</span>
+                    <span class="title-name">
+                        <span class="name-text">Lamine Diop</span>
+                        <span class="name-underline"></span>
+                    </span>
+                    <span class="title-job">
+                        <span class="job-typed">Développeur Front-End</span>
+                    </span>
+                </h1>
+                
+                <p class="hero-description">
+                    Je crée des <span class="highlight">solutions digitales innovantes</span> 
+                    et des <span class="highlight">expériences utilisateur exceptionnelles</span>. 
+                    Passionné par le code propre, les performances et l'innovation.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">Projets Livrés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-label">Ans d'Expérience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">Clients Satisfaits</div>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Voir mes Projets
+                        <div class="btn-shine"></div>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Discutons
+                    </a>
+                    <a href="#about" class="btn btn-ghost">
+                        <i class="fas fa-arrow-down"></i>
+                        En savoir plus
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <span class="social-label">Suivez-moi</span>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="WhatsApp Image 2025-11-01 à 20.05.50_d162b978.jpg" alt="Lamine Diop - Développeur Fullstack">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-element element-1">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="floating-element element-2">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="floating-element element-3">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="floating-element element-4">
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="card-avatar">
+                            <img src="lamine.jpg" alt="Lamine">
+                        </div>
+                        <div class="card-info">
+                            <div class="card-name">Lamine Diop</div>
+                            <div class="card-status">
+                                <div class="status-dot"></div>
+                                Disponible pour de nouveaux projets
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-skills">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Java-Script</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <span class="scroll-text">Scroll pour découvrir</span>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>À propos de moi</h2>
+            </div>
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="lamine.jpg" alt="Photo de profil">
+                </div>
+                <div class="about-content">
+                    <h3>Développeur web Front-End</h3>
+                    <p>Je suis un développeur passionné avec plus de 1 ans d'expérience dans la création de sites web et d'applications. Spécialisé en JavaScript, React et WordPress, j'aime résoudre des problèmes complexes et créer des expériences utilisateur exceptionnelles.</p>
+                    <p>Mon approche combine une attention aux détails, une pensée créative et une solide compréhension des meilleures pratiques de développement.</p>
+                    
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Canva</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Bootstrap</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Figma</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+
+                            <div class="skill-item">
+                            <div class="skill-name">
+                                <span>GitHub</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+
+                            <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Git</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>WordPress</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mes Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web sur mesure, optimisés pour les performances et le référencement, avec une expérience utilisateur exceptionnelle.</p>
+                    <button class="btn request-service-btn" data-service="Développement Web">Demander ce service</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Applications Responsives</h3>
+                    <p>Développement d'applications qui s'adaptent parfaitement à tous les appareils, des smartphones aux ordinateurs de bureau.</p>
+                    <button class="btn request-service-btn" data-service="Applications Responsives">Demander ce service</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🛒</div>
+                    <h3>E-commerce</h3>
+                    <p>Solutions e-commerce complètes avec gestion de produits, panier, paiement sécurisé et tableau de bord administrateur.</p>
+                    <button class="btn request-service-btn" data-service="E-commerce">Demander ce service</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Maintenance</h3>
+                    <p>Services de maintenance et de mise à jour pour garder votre site web sécurisé, rapide et à jour avec les dernières technologies.</p>
+                    <button class="btn request-service-btn" data-service="Maintenance">Demander ce service</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>SEO</h3>
+                    <p>Optimisation pour les moteurs de recherche pour améliorer votre visibilité en ligne et attirer plus de clients potentiels.</p>
+                    <button class="btn request-service-btn" data-service="SEO">Demander ce service</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Design UI/UX</h3>
+                    <p>Conception d'interfaces utilisateur intuitives et attrayantes qui améliorent l'engagement et la satisfaction des utilisateurs.</p>
+                    <button class="btn request-service-btn" data-service="Design UI/UX">Demander ce service</button>
+                </div>
+
+                  <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Création d'affiche</h3>
+                    <p>Conception d'interfaces utilisateur intuitives et attrayantes qui améliorent l'engagement et la satisfaction des utilisateurs.</p>
+                    <button class="btn request-service-btn" data-service="Creation d'affiche">Demander ce service</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mes Projets</h2>
+                <p>Découvrez mes réalisations récentes et mes compétences en action</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Sites Web</button>
+                <button class="filter-btn" data-filter="app">Applications</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Projet 1 - Site E-commerce -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Boutique en ligne" class="portfolio-img">
+                            <div class="portfolio-badge">React</div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Boutique E-commerce</h3>
+                            <p>Plateforme de vente en ligne avec panier, paiement sécurisé et dashboard admin</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Html</span>
+                                <span class="tech-tag">Css</span>
+                                <span class="tech-tag">Js</span>
+                            </div>
+                            <div class="portfolio-actions">
+                                <a href="https://lamine-dash.github.io/Site-Ecommerce/" class="portfolio-link demo">
+                                    <i class="fas fa-eye"></i> voir
+                                </a>
+                                <a href="#" class="portfolio-link code">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 2 - Application de Gestion -->
+                    <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="affiche.jpg" alt="Boutique en ligne" class="portfolio-img">
+                            <div class="portfolio-badge">Figma</div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Affiche de Formation</h3>
+                            <p>Affiche de formation d'une école de formation de beauté</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Figma</span>
+                              
+                            </div>
+                            <div class="portfolio-actions">
+                                <a href="https://lamine-dash.github.io/Site-Ecommerce/" class="portfolio-link demo">
+                                    <i class="fas fa-eye"></i> voir
+                                </a>
+                                <a href="#" class="portfolio-link code">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 3 - App Mobile -->
+               
+                
+                <!-- Projet 4 - Design UI/UX -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Design interface" class="portfolio-img">
+                            <div class="portfolio-badge">UI/UX</div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Redesign d'Application</h3>
+                            <p>Modernisation complète de l'interface utilisateur d'une application bancaire</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Adobe XD</span>
+                                <span class="tech-tag">Prototypage</span>
+                            </div>
+                            <div class="portfolio-actions">
+                                <a href="#" class="portfolio-link demo">
+                                    <i class="fas fa-eye"></i> Voir
+                                </a>
+                                <a href="#" class="portfolio-link code">
+                                    <i class="fab fa-behance"></i> Behance
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 5 - Site Vitrine -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Site vitrine restaurant" class="portfolio-img">
+                            <div class="portfolio-badge">Html/Css</div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Site Restaurant</h3>
+                            <p>Site vitrine élégant avec réservation en ligne et galerie photos</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">WordPress</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="portfolio-actions">
+                                <a href="https://lamine-dash.github.io/Restaurant-/" class="portfolio-link demo">
+                                    <i class="fas fa-eye"></i> Visiter
+                                </a>
+                                <a href="#" class="portfolio-link code">
+                                    <i class="fas fa-code"></i> Détails
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 6 - API REST -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="CAFE-Y-REPRODUCCION.jpg" alt="">
+                            <div class="portfolio-badge">Htm/Css</div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Site e-commerce Café</h3>
+                            <p>Développement d'une site de vitrine de caféteria</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Bootstrap²</span>
+                                <span class="tech-tag">Css</span>
+                                <span class="tech-tag">Js</span>
+                            </div>
+                            <div class="portfolio-actions">
+                                <a href="https://lamine-dash.github.io/Cafe-site/" class="portfolio-link demo">
+                                    <i class="fas fa-eye"></i> Voir
+                                </a>
+                                <a href="#" class="portfolio-link code">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <p>Intéressé par mon travail ?</p>
+                <a href="#contact" class="btn">Discutons de votre projet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contactez-moi</h2>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Parlons de votre projet</h3>
+                    <p>Je suis toujours ouvert à discuter de nouveaux projets, idées créatives ou opportunités de faire partie de vos visions.</p>
+                    
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> Dioplamine219@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +221 76 805 81 399</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Dakar, Senegal</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" title="Behance"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre nom" id="contact-name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre email" id="contact-email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Sujet" id="contact-subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Votre message" id="contact-message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Carte -->
+            <div class="map-container">
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7716.240828182674!2d-17.37543806247499!3d14.762245332507955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1761515477696!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Mon Portfolio</h3>
+                    <p>Développeur web passionné créant des solutions numériques innovantes et performantes pour vos projets.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> À propos</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Mes Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Développement Web</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Applications Responsives</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> E-commerce</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> SEO</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Design UI/UX</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Support Technique</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <div class="footer-newsletter">
+                        <p>Abonnez-vous à ma newsletter pour recevoir mes dernières actualités et projets.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Votre email" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                        <p class="copyright">En vous abonnant, vous acceptez notre politique de confidentialité.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="#hero" class="back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal pour demande de service -->
+    <div class="modal" id="service-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Demander un service</h2>
+            <div class="confirmation-message" id="confirmation-message">
+                Votre demande a été envoyée avec succès ! Je vous répondrai dans les plus brefs délais.
+            </div>
+            <form class="service-request-form" id="service-request-form">
+              <div class="form-group">
+    <label>Service demandé</label>
+    <div class="service-display-container">
+        <div id="service-display" class="service-display">
+            <!-- Le service sera affiché ici automatiquement -->
+        </div>
+        <input type="hidden" id="service-type" name="service">
+    </div>
+</div>
+                <div class="form-group">
+                    <label for="client-name">Votre nom *</label>
+                    <input type="text" id="client-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="client-email">Votre email *</label>
+                    <input type="email" id="client-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="client-phone">Votre téléphone</label>
+                    <input type="tel" id="client-phone">
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget estimé</label>
+                    <select id="budget">
+                        <option value="">Sélectionnez une option</option>
+                        <option value="Moins de 1000€">Moins de 50000</option>
+                        <option value="1000€ - 3000€">50000fcfa - 80000fcfa</option>
+                        <option value="3000€ - 5000€">80000Fcfa - 150000Fcfa</option>
+                        <option value="Plus de 5000€">Plus de 1500000Fcfa</option>
+                        <option value="À discuter">À discuter</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="deadline">Délai souhaité</label>
+                    <select id="deadline">
+                        <option value="">Sélectionnez une option</option>
+                        <option value="Urgent (moins d'1 mois)">Urgent (moins d'1 mois)</option>
+                        <option value="1-2 mois">1-2 mois</option>
+                        <option value="2-3 mois">2-3 mois</option>
+                        <option value="Plus de 3 mois">Plus de 3 mois</option>
+                        <option value="Flexible">Flexible</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="project-details">Détails du projet *</label>
+                    <textarea id="project-details" placeholder="Décrivez votre projet en détail..." required></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="btn">Envoyer la demande</button>
+                    <button type="button" class="btn btn-cancel" id="cancel-request">Annuler</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
